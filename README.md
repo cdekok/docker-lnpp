@@ -6,7 +6,6 @@ linux nginx postgres php
 docker and compose
 
 ## Usage
-```
 
 1. Place php code in src directory. 
 2. Add sql dump in postgres/db.sql
@@ -24,7 +23,7 @@ $db = new PDO($dsn, $username, $password);
 
 ```
 docker-compose up
-
+```
 
 =====================
 
